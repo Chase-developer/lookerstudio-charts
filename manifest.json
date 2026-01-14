@@ -1,0 +1,22 @@
+{
+  "id": "my-simple-vis",
+  "label": "My Simple Visualization",
+  "resources": [
+    {
+      "type": "SCRIPT",
+      "url": "https://username.github.io/repo-name/my-vis.js"
+    }
+  ],
+  "options": {
+    "color": {
+      "type": "COLOR",
+      "label": "Color",
+      "default": "#FF0000"
+    },
+    "showLabels": {
+      "type": "BOOLEAN",
+      "label": "Show labels",
+      "default": true
+    }
+  }
+}
